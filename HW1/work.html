@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Featured Works</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <header
+      class="container mx-auto px-4 py-6 flex justify-between items-center"
+    >
+      <a href="/" class="flex items-center space-x-2">
+        <img src="/assets/logo.png" />
+      </a>
+      <nav class="hidden md:flex space-x-8 text-lg">
+        <a href="/who-we-are" class="text-gray-600 hover:text-gray-900">Home</a>
+        <a href="/case-study" class="text-gray-600 hover:text-gray-900"
+          >Who We Are</a
+        >
+        <a href="/our-work" class="text-gray-600 hover:text-gray-900"
+          >Our Works</a
+        >
+        <a href="/services" class="text-gray-600 hover:text-gray-900"
+          >Services</a
+        >
+        <a href="/say-hello" class="text-gray-600 hover:text-gray-900"
+          >Say Hello</a
+        >
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 flex-1">
+      <section class="py-32 md:py-24">
+        <h1 class="text-8xl font-bold mb-4">Featured Works</h1>
+        <p class="text-gray-600 max-w-2xl mb-32 text-2xl">
+          We work with a lot of great people to give them a wide range of
+          experiences. Here's our works
+        </p>
+
+        <!-- Project Grid -->
+        <div class="space-y-24">
+          <div class="group">
+            <a href="/project">
+              <!-- Aspect ratio container (Tailwind aspect-ratio plugin or custom utility) -->
+              <div class="relative aspect-[16/9]">
+                <img
+                  src="/assets/1.png"
+                  alt="Project preview"
+                  class="absolute inset-0 w-full object-cover rounded-lg"
+                />
+              </div>
+              <h3 class="text-3xl font-medium mb-2">Friends Entertainment</h3>
+              <p class="text-base text-gray-500">
+                A partner for clients in any industry that fulfills their
+                personal needs
+              </p>
+            </a>
+          </div>
+
+          <div class="group mr-auto w-1/2">
+            <a href="/project">
+              <div class="relative aspect-[16/9] mb-6">
+                <img
+                  src="/assets/2.png"
+                  alt="Project preview"
+                  class="absolute inset-0 w-full h-full object-cover rounded-lg "
+                />
+              </div>
+              <h3 class="text-2xl font-medium mb-2">Friends Entertainment</h3>
+              <p class="text-base text-gray-500">
+                A partner for clients in any industry that fulfills their
+                personal needs
+              </p>
+            </a>
+          </div>
+
+          <div class="group ml-auto w-1/2 ">
+            <a href="/project">
+              <div class="relative aspect-[16/9] mb-6">
+                <img
+                  src="/assets/3.png"
+                  alt="Project preview"
+                  class="absolute inset-0 w-full h-full object-cover rounded-lg "
+                />
+              </div>
+              <h3 class="text-2xl font-medium mb-2">Friends Entertainment</h3>
+              <p class="text-sm text-gray-500">
+                A partner for clients in any industry that fulfills their
+                personal needs
+              </p>
+            </a>
+          </div>
+
+          <div class="space-y-24">
+            <div class="group">
+              <a href="/project">
+                <!-- Aspect ratio container (Tailwind aspect-ratio plugin or custom utility) -->
+                <div class="relative aspect-[16/9]">
+                  <img
+                    src="/assets/1.png"
+                    alt="Project preview"
+                    class="absolute inset-0 w-full object-cover rounded-lg"
+                  />
+                </div>
+                <h3 class="text-3xl font-medium mb-2">Friends Entertainment</h3>
+                <p class="text-base text-gray-500">
+                  A partner for clients in any industry that fulfills their
+                  personal needs
+                </p>
+              </a>
+            </div>
+  
+            <div class="group mr-auto w-1/2">
+              <a href="/project">
+                <div class="relative aspect-[16/9] mb-6">
+                  <img
+                    src="/assets/2.png"
+                    alt="Project preview"
+                    class="absolute inset-0 w-full h-full object-cover rounded-lg "
+                  />
+                </div>
+                <h3 class="text-2xl font-medium mb-2">Friends Entertainment</h3>
+                <p class="text-base text-gray-500">
+                  A partner for clients in any industry that fulfills their
+                  personal needs
+                </p>
+              </a>
+            </div>
+  
+            <div class="group ml-auto w-1/2 ">
+              <a href="/project">
+                <div class="relative aspect-[16/9] mb-6">
+                  <img
+                    src="/assets/3.png"
+                    alt="Project preview"
+                    class="absolute inset-0 w-full h-full object-cover rounded-lg "
+                  />
+                </div>
+                <h3 class="text-2xl font-medium mb-2">Friends Entertainment</h3>
+                <p class="text-sm text-gray-500">
+                  A partner for clients in any industry that fulfills their
+                  personal needs
+                </p>
+              </a>
+            </div>
+
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 py-12 mt-24">
+      <div
+        class="flex flex-col md:flex-row justify-between items-start md:items-center border-t pt-12"
+      >
+        <div class="mb-8 md:mb-0">
+          <div class="flex items-center space-x-2 mb-4">
+            <img src="/assets/logo.png" />
+          </div>
+          <div class="space-y-2">
+            <p class="text-sm">Have a project in mind?</p>
+            <p class="text-sm">Hit us up!</p>
+            <button
+              class="bg-blue-600 text-white px-6 py-2 rounded text-sm mt-4"
+            >
+              Start a new project
+            </button>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <nav class="flex flex-col space-y-2 text-sm text-gray-600">
+            <a href="/who-we-are" class="hover:text-gray-900">Who We Are</a>
+            <a href="/our-work" class="hover:text-gray-900">Our Work</a>
+            <a href="/services" class="hover:text-gray-900">Services</a>
+            <a href="/say-hello" class="hover:text-gray-900">Say Hello</a>
+          </nav>
+          <div class="flex items-center space-x-4">
+            <a
+              href="https://instagram.com"
+              class="text-gray-600 hover:text-gray-900"
+            >
+              <!-- Instagram icon (Lucide) as inline SVG -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+          <p class="text-sm text-gray-500">© 2024 Company</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
