@@ -4,202 +4,134 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./work.css">
     <title>Featured Works</title>
   </head>
-  <body class="min-h-screen flex flex-col">
-    <header
-      class="container mx-auto px-4 py-6 flex justify-between items-center"
-    >
-      <a href="/" class="flex items-center space-x-2">
-        <img src="/assets/logo.png" />
-      </a>
-      <nav class="hidden md:flex space-x-8 text-lg">
-        <a href="/who-we-are" class="text-gray-600 hover:text-gray-900">Home</a>
-        <a href="/case-study" class="text-gray-600 hover:text-gray-900"
-          >Who We Are</a
-        >
-        <a href="/our-work" class="text-gray-600 hover:text-gray-900"
-          >Our Works</a
-        >
-        <a href="/services" class="text-gray-600 hover:text-gray-900"
-          >Services</a
-        >
-        <a href="/say-hello" class="text-gray-600 hover:text-gray-900"
-          >Say Hello</a
-        >
-      </nav>
-    </header>
-
-    <!-- Main Content -->
-    <main class="container mx-auto px-4 flex-1">
-      <section class="py-32 md:py-24">
-        <h1 class="text-8xl font-bold mb-4">Featured Works</h1>
-        <p class="text-gray-600 max-w-2xl mb-32 text-2xl">
-          We work with a lot of great people to give them a wide range of
-          experiences. Here's our works
-        </p>
-
-        <!-- Project Grid -->
-        <div class="space-y-24">
-          <div class="group">
-            <a href="/project">
-              <!-- Aspect ratio container (Tailwind aspect-ratio plugin or custom utility) -->
-              <div class="relative aspect-[16/9]">
-                <img
-                  src="/assets/1.png"
-                  alt="Project preview"
-                  class="absolute inset-0 w-full object-cover rounded-lg"
-                />
-              </div>
-              <h3 class="text-3xl font-medium mb-2">Friends Entertainment</h3>
-              <p class="text-base text-gray-500">
-                A partner for clients in any industry that fulfills their
-                personal needs
-              </p>
-            </a>
-          </div>
-
-          <div class="group mr-auto w-1/2">
-            <a href="/project">
-              <div class="relative aspect-[16/9] mb-6">
-                <img
-                  src="/assets/2.png"
-                  alt="Project preview"
-                  class="absolute inset-0 w-full h-full object-cover rounded-lg "
-                />
-              </div>
-              <h3 class="text-2xl font-medium mb-2">Friends Entertainment</h3>
-              <p class="text-base text-gray-500">
-                A partner for clients in any industry that fulfills their
-                personal needs
-              </p>
-            </a>
-          </div>
-
-          <div class="group ml-auto w-1/2 ">
-            <a href="/project">
-              <div class="relative aspect-[16/9] mb-6">
-                <img
-                  src="/assets/3.png"
-                  alt="Project preview"
-                  class="absolute inset-0 w-full h-full object-cover rounded-lg "
-                />
-              </div>
-              <h3 class="text-2xl font-medium mb-2">Friends Entertainment</h3>
-              <p class="text-sm text-gray-500">
-                A partner for clients in any industry that fulfills their
-                personal needs
-              </p>
-            </a>
-          </div>
-
-          <div class="space-y-24">
-            <div class="group">
-              <a href="/project">
-                <!-- Aspect ratio container (Tailwind aspect-ratio plugin or custom utility) -->
-                <div class="relative aspect-[16/9]">
-                  <img
-                    src="/assets/1.png"
-                    alt="Project preview"
-                    class="absolute inset-0 w-full object-cover rounded-lg"
-                  />
-                </div>
-                <h3 class="text-3xl font-medium mb-2">Friends Entertainment</h3>
-                <p class="text-base text-gray-500">
-                  A partner for clients in any industry that fulfills their
-                  personal needs
-                </p>
-              </a>
-            </div>
-  
-            <div class="group mr-auto w-1/2">
-              <a href="/project">
-                <div class="relative aspect-[16/9] mb-6">
-                  <img
-                    src="/assets/2.png"
-                    alt="Project preview"
-                    class="absolute inset-0 w-full h-full object-cover rounded-lg "
-                  />
-                </div>
-                <h3 class="text-2xl font-medium mb-2">Friends Entertainment</h3>
-                <p class="text-base text-gray-500">
-                  A partner for clients in any industry that fulfills their
-                  personal needs
-                </p>
-              </a>
-            </div>
-  
-            <div class="group ml-auto w-1/2 ">
-              <a href="/project">
-                <div class="relative aspect-[16/9] mb-6">
-                  <img
-                    src="/assets/3.png"
-                    alt="Project preview"
-                    class="absolute inset-0 w-full h-full object-cover rounded-lg "
-                  />
-                </div>
-                <h3 class="text-2xl font-medium mb-2">Friends Entertainment</h3>
-                <p class="text-sm text-gray-500">
-                  A partner for clients in any industry that fulfills their
-                  personal needs
-                </p>
-              </a>
-            </div>
-
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="container mx-auto px-4 py-12 mt-24">
-      <div
-        class="flex flex-col md:flex-row justify-between items-start md:items-center border-t pt-12"
-      >
-        <div class="mb-8 md:mb-0">
-          <div class="flex items-center space-x-2 mb-4">
-            <img src="/assets/logo.png" />
-          </div>
-          <div class="space-y-2">
-            <p class="text-sm">Have a project in mind?</p>
-            <p class="text-sm">Hit us up!</p>
-            <button
-              class="bg-blue-600 text-white px-6 py-2 rounded text-sm mt-4"
-            >
-              Start a new project
-            </button>
-          </div>
-        </div>
-        <div class="space-y-4">
-          <nav class="flex flex-col space-y-2 text-sm text-gray-600">
-            <a href="/who-we-are" class="hover:text-gray-900">Who We Are</a>
-            <a href="/our-work" class="hover:text-gray-900">Our Work</a>
-            <a href="/services" class="hover:text-gray-900">Services</a>
-            <a href="/say-hello" class="hover:text-gray-900">Say Hello</a>
-          </nav>
-          <div class="flex items-center space-x-4">
-            <a
-              href="https://instagram.com"
-              class="text-gray-600 hover:text-gray-900"
-            >
-              <!-- Instagram icon (Lucide) as inline SVG -->
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-5 h-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8"></path>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-              </svg>
-            </a>
-          </div>
-          <p class="text-sm text-gray-500">© 2024 Company</p>
-        </div>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+          <img src="./assets/logo.png" alt="Logo">
       </div>
-    </footer>
+      <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#who-we-are">Who We Are</a></li>
+          <li><a href="#our-works">Our Works</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#say-hello">Say Hello</a></li>
+      </ul>
+  </nav>
+
+    <section class="featured-works">
+      <div class="container">
+          <h1>Featured Works</h1>
+          <p class="subtitle">
+              We work with a lots of great people to give them wide range of experiences. Here's our works
+          </p>
+          
+          <div class="work-item">
+              <div class="work-image">
+                  <img src="./assets/1.png" alt="Friends Entertainment App Interface">
+              </div>
+              <div class="work-details">
+                  <h2>Friends Entertainment</h2>
+                  <p>A partner for clients in any industry that fulfils their</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="works-grid">
+    <div class="container">
+        <div class="work-item">
+            <div class="work-image purple-bg work-item-custom-1">
+                <img src="./assets/2.png" alt="Friends Entertainment Mobile App">
+            </div>
+            <div class="work-details">
+                <h2>Friends Entertainment</h2>
+                <p>A partner for clients in any industry that fulfils their particular needs</p>
+            </div>
+        </div>
+
+        <div class="work-item work-item-custom-2">
+            <div class="work-image pink-bg">
+                <img src="./assets/3.png" alt="Friends Entertainment Dashboard">
+            </div>
+            <div class="work-details">
+                <h2>Friends Entertainment</h2>
+                <p>A partner for clients in any industry that fulfils their particular needs</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured-works">
+  <div class="container">
+
+      <div class="work-item">
+          <div class="work-image">
+              <img src="./assets/1.png" alt="Friends Entertainment App Interface">
+          </div>
+          <div class="work-details">
+              <h2>Friends Entertainment</h2>
+              <p>A partner for clients in any industry that fulfils their</p>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="works-grid">
+<div class="container">
+    <div class="work-item work-item-custom-1">
+        <div class="work-image purple-bg">
+            <img src="./assets/2.png" alt="Friends Entertainment Mobile App">
+        </div>
+        <div class="work-details">
+            <h2>Friends Entertainment</h2>
+            <p>A partner for clients in any industry that fulfils their particular needs</p>
+        </div>
+    </div>
+
+    <div class="work-item work-item-custom-2">
+        <div class="work-image pink-bg">
+            <img src="./assets/3.png" alt="Friends Entertainment Dashboard">
+        </div>
+        <div class="work-details">
+            <h2>Friends Entertainment</h2>
+            <p>A partner for clients in any industry that fulfils their particular needs</p>
+        </div>
+    </div>
+</div>
+</section>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            <img src="./assets/logo.png" alt="Logo" class="footer-logo">
+            <div class="cta-section">
+                <h2>Have a project in mind?</h2>
+                <h3>Hit us up!</h3>
+                <a href="#" class="cta-button">Start a new project</a>
+            </div>
+            <div class="social-links">
+                <a href="#" class="instagram-link">
+                    <img src="./assets/icons8_Instagram_1 1.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#who-we-are">Who We Are</a></li>
+                    <li><a href="#our-workst">Our Workst</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#say-hello">Say Hello</a></li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                © 2021 Homework
+            </div>
+        </div>
+    </div>
+</footer>
+   
   </body>
 </html>
